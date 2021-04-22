@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>PayrollSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlets.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ResponseForget</servlet-name>
+    <servlet-class>servlets.ResponseForget</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseForget</servlet-name>
+    <url-pattern>/ResponseForget</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ResponseForget1</servlet-name>
+    <servlet-class>servlets.ResponseForget1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseForget1</servlet-name>
+    <url-pattern>/ResponseForget1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>ResponseNewPassword</servlet-name>
+    <servlet-class>servlets.ResponseNewPassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseNewPassword</servlet-name>
+    <url-pattern>/ResponseNewPassword</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>LDelete</servlet-name>
+    <servlet-class>servlets.LDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LDelete</servlet-name>
+    <url-pattern>/LDelete</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>LInquire</servlet-name>
+    <servlet-class>servlets.LInquire</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LInquire</servlet-name>
+    <url-pattern>/LInquire</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>RespInsert</servlet-name>
+    <servlet-class>servlets.RespInsert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RespInsert</servlet-name>
+    <url-pattern>/RespInsert</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>LUpdate</servlet-name>
+    <servlet-class>servlets.LUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LUpdate</servlet-name>
+    <url-pattern>/LUpdate</url-pattern>
+  </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>Sign</servlet-name>
+    <servlet-class>servlets.Sign</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Sign</servlet-name>
+    <url-pattern>/Sign</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
